@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-boxs;
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background-attachment: fixed;
+}
+.header{
+    background: #99b8fa;
+    background: linear-gradient(212deg, rgb(85, 95, 243) 0%, #98b9ec 26%, #2f5df5 90%, #9dd1f3 100%);
+    width: 100vw;
+    height: calc(100vh - 500px);
+    text-align: center;
+    overflow: hidden;
+    margin: 0 auto;
+    background-attachment: fixed;
+    position: relative;
+}
+.header>img{
+    width: 50%;
+    height: 180px;
+    margin-top: 5%;
+}
+.ola{
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+
+}
+.form{
+    width: 40%;
+    height: auto;
+    margin: 5% auto;
+    border-radius: 10px;
+    border: 4px solid #3C3D59;
+    padding: 28px 10px;
+    text-align: center;
+}
+.form > input,label,button,select {
+    display: inline-block;
+    width: 80%;
+    margin: 3%;
+    font-size: 20px;
+}
+.form > input{
+    padding: 10px 2px;
+    border: none;
+    border-bottom: 1px solid #2f5df5;
+    outline: none;
+}
+.form > label{
+
+    text-align: left;
+    padding: 5px;
+}
+.control-s{
+    margin-top: 2%;
+    border: 1px solid #f25757;
+    padding: 8px;
+}
+.btn{
+    background: #5f85ec;
+    background: linear-gradient(top, #9dd1f3, #99b8fa);
+    background: linear-gradient(top, #86b2cf, #84a8f5);
+    border-radius: 28px;
+    color: #fafafa;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 2px solid #f2b366;
+    text-decoration: none;
+
+}
+.btn:hover{
+    background: #f25757;
+    background: linear-gradient(top, #9dd1f3, #99b8fa);
+    background: linear-gradient(to bottom, #9dd1f3, #99b8fa);
+    text-decoration: none;
+
+}
+.card{
+    width: 60%;
+    margin: 5% auto;
+    border: #3C3D59;
+    text-align: center;
+}
+.card .title-card{
+    padding: 2%;
+}
+.card .text-promedio{
+    font-size: 20px;
+    color: #f2b366;
+}
+.card .text-aprobado{
+    font-size: 24px;
+    padding: 2% 0;
+}
+.card .btnRegistrar{
+    background: #f25757;
+    background: linear-gradient(top, #9dd1f3, #99b8fa);
+    background: linear-gradient(to bottom, #9dd1f3, #99b8fa);
+    border-radius: 24px;
+    padding: 2%;
+    border: 1px solid #f25757;
+
+}
+.alerta{
+    width: 25%;
+    height: 100px;
+    background-color: #5f85ec;
+    position: fixed;
+    top: 35%;
+    margin: 0  auto;
+    text-align: center;
+    border-radius: 7%;
+    border: 4px solid #3C3D59;
+
+
+}
+.texAlerta{
+    width: 100%;
+    margin-top: 10%;
+    color: #fafafa;
+}
+.close{
+    width: 9%;
+    height: auto;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.prom .promedio .prof .profesion .edad .Edadl{
+    display: inline-block;
+}
+
+@media screen and (max-width: 760px){
+    .form{
+
+     width: 60%;
+     margin: 2% auto;
+     border: 2px solid #3C3D59;
+     padding: 15px 5px;
+    }
+}
+@media screen and (max-width:500px) {
+    .form{
+
+        width: 70%;
+        margin: 1% auto 3%;
+        border: 1px solid #8385c2;
+        padding: 15px 5px;
+    }
+    .form > input,label,button,select{
+        margin: 2% 0;
+        font-size: 16px;
+    }
+    .btn{
+        font-size: 16px;
+    }
+}
